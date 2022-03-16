@@ -1,0 +1,18 @@
+{
+    "cosmosDBDirectConnection": [
+      { "endpoint": "<Cosmos DB endpoint>" },
+    { "key": "<Cosmos DB key>"},
+    { "databaseId": "<Database Name>"},
+      { "partitionKey": { "kind": "Hash", "paths": ["/PartitionID"] } },
+      { "clientOptions": { "consistencyLevel": "Session" } },
+      { "preferredLocations" : ["Central India" , "North Central US"] }
+    ],
+    "cosmosDBDedicatedGateway": [
+      { "endpoint": "<Cosmos DB endpoint>" },
+    { "key": "<Cosmos DB key>"},
+    { "databaseId": "<Database Name>"},
+      { "partitionKey": { "kind": "Hash", "paths": ["/PartitionID"] } },
+      { "clientOptions": { "consistencyLevel": "Session" } },
+      { "preferredLocations" : ["Central India" , "North Central US"] }
+    ]
+  }

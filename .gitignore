@@ -1,0 +1,5 @@
+querySample.txt
+cosmosDBConnectionSettingsDev.json
+Documents/*
+logs/*
+node_modules/*
